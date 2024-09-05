@@ -1,6 +1,7 @@
 **YARAA** (Yet Another Rag Automation Attempt) is a library that simplifies the development of RAG (Retrieval-Augmented Generation) pipelines. You can build your vector database in any way you prefer, and YARAA will assist you in testing, evaluating, and optimizing the best configurations.
 
-![tutorial (2)](https://github.com/user-attachments/assets/34213228-969e-4627-a8e0-51858ebf599b)
+![tutorial (2)](https://github.com/user-attachments/assets/78de2620-fe94-4f2e-9582-72e7a0757de0)
+
 
 # Installation
 
