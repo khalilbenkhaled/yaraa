@@ -1,0 +1,6 @@
+__pycache__/
+yaraa.egg-info/
+db/
+build/
+env/
+tests/

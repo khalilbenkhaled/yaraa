@@ -1,0 +1,27 @@
+Vectorstore:
+  name: "chroma"
+  path: "./db"
+
+Encoder: 
+  model_name: "sentence-transformers/all-mpnet-base-v2"
+
+Generator:
+  model_name: qwen2:0.5b-instruct-q4_K_M
+  is_ollama: True
+  is_server: False
+  file_name: ""
+  prompt: |
+    answer the following question. 
+    question: {question} 
+    context: {context}
+
+
+Evaluation:
+  metrics: [answer relevance]
+  judge:
+    model_name: qwen2:0.5b-instruct-q4_K_M
+    is_ollama: True
+    is_server: False
+    file_name: ""
+
+
